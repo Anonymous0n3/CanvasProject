@@ -45,8 +45,8 @@ public class HelloController implements Initializable {
 
             entities.add(new Entity(x,y,w,w, Paint.valueOf("RED")));
         }
-        drawLines();
         render();
+        drawLines();
     }
 
     private void render() {
